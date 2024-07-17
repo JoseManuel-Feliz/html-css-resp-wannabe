@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 360px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row>.col {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .why-us {
+        background-color: #222222;
+    }
+}
