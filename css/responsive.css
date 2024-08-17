@@ -1,0 +1,45 @@
+/* Extra-large Breakpoint */
+@media (width >=1160px) {
+    .lg-w-95 {
+        width: 95%;
+    }
+
+    .lg-mb-5 {
+        margin-bottom: 5px;
+    }
+}
+
+/* Large Breakpoint */
+@media (width <=1160px) {
+    .container {
+        max-width: 750px;
+    }
+
+}
+
+/* Medium Breakpoint */
+@media (width <=768px) {
+    .container {
+        max-width: 570px;
+    }
+}
+
+/* Small Breakpoint */
+@media (width <=576px) {
+    .container {
+        max-width: 360px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .col {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .why-us {
+        background-color: #222222;
+    }
+}
